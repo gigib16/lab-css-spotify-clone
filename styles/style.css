@@ -1,8 +1,156 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body{
+    width:100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background: #fff;
+    position: fixed;
+    top: 0;
+}
 
-*/
+.logo {
+    margin-top: 2%;
+    margin-bottom:2%;
+    padding-left: 1em;
+    max-width:12%;
+    max-height: auto;
+    float: left;
+}
+
+.navigation {
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    margin-top:2%;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+  .navbar li {
+    list-style-type: none;
+    display:inline; 
+  }
+
+  .navbar a:hover {
+    color:   #1ab26b;
+    font-weight: 800;
+  }
+
+  h1{
+    font-size: 4rem;
+
+  }
+  
+h2{
+    font-size: 2rem;
+}
+  h3{
+
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+
+}
+  
+  .main{
+    clear: both;
+    margin-top:2%;
+  }
+
+  .main-img{
+
+    width:100%;
+
+  }
+  .main-text{
+    position:absolute;
+    text-align: center;
+    color:#ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .info{
+    display:block;
+  }
+  .info-text{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+.services
+{
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-bottom: 5%;
+}
+.serv{
+    width: 30%;
+    min-height: 10em;
+    padding-top: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+.serv-img{
+    margin:auto;
+    height: auto;
+    width: 3em;
+}
+
+.serv-h3{
+    color:  #1ab26b;
+}
+
+.kanye{
+    background-color: #1ab26b;
+    padding: 6%;
+    display:flex;
+    height: 500px;
+
+}
+
+.kanye-text{
+    margin-left:5%;
+    color:#ffffff;
+    float:left;
+
+}
+
+.spotify-app{
+    float:right; 
+    width: 40%;
+    margin-left:80%;
+    margin-top:5%;    
+}
+
+.spotify-icon{
+    position:relative;
+    width:100%;
+    margin-top: 250px;
+    margin-left:600px;
+    }
+
+    .spotify-icon-container{
+        clear:both;
+        position:relative;
+        width:6%;
+        height:6%;
+        }
